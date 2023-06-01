@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .y{
+            width: 200px;
+            height: 100px;
+            background-color:rgb(255, 255, 255);
+            border: 2px solid rgb(0, 0, 0);
+            border-width: 2px 2px 100px 2px;
+            border-radius: 50%;
+            position: relative;
+            animation: rotate 5s linear infinite;
+            margin: auto;
+        }
+        .y:hover{
+            width: 100px;
+        height: 50px;
+        }
+       .a{
+        width: 28px;
+        height: 28px;
+        background-color: white;
+        border: 36px solid black;
+        border-radius: 50%;
+        position: relative;
+        top:50px;
+       }
+       .b{
+        width: 28px;
+        height: 28px;
+        background-color: black;
+        border: 36px solid white;
+        border-radius: 50%;
+        position: relative;
+        bottom: 50px;
+        left: 100px;
+       }
+       @keyframes rotate{
+        0%{transform: rotate (0);}
+        50%{transform: rotate(180deg);}
+        100%{transform: rotate(360deg);}
+       }
+    </style>
+</head>
+<body>
+    <div class="y">
+<div class="a"></div>
+<div class="b"></div>
+    </div>
+</body>
+</html>
