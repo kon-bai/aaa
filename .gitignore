@@ -1,0 +1,5 @@
+#忽略 aaa.css 这个文件
+aaa.css
+
+#忽略 trt 目录下的所有文件
+trt/
